@@ -5,7 +5,9 @@
     <link rel="stylesheet" type="text/css" href="foster.css">
 </head>
 <body>
-    
+    <?php include 'header.html'; ?>
+    <p class = "para">Thank you for your interest in fostering a pet. Please fill out the form below and we will get in touch with you shortly.</p>
+
     <form action="https://formspree.io/f/mjkkpqzd" method="POST">
         <h2>Foster Home Application</h2></br>
 
@@ -61,8 +63,6 @@
 
         <button type="submit">Get in touch</button>
     </form>
-
-    <p class = "para">Thank you for your interest! We will contact you shortly.</p>
     <?php include 'footer.html'; ?>
 </body>
 </html>

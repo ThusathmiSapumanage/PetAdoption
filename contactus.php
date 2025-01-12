@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-    
+    <?php include 'header.html'; ?>
     <form action="https://formspree.io/f/xgvvpjqy" method="POST">
         <h2>Let's get in touch !</h2></br>
 

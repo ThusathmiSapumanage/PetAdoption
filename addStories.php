@@ -3,9 +3,10 @@
 <head>
     <title>Add your amazing adoption tales!</title>
     <link rel="stylesheet" type="text/css" href="foster.css">
+
 </head>
 <body>
-    
+    <?php include 'header.html'; ?>
     <form action="addStories.php" method="POST">
         <h2>Add stories</h2></br>
 

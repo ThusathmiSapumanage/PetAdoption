@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="viewPets.css">
 </head>
 <body>
+    <?php include 'header.html'; ?>
     <p class = "text"> View pets who are <b>up for adoption</b></p>
     <div class="container">
         <?php
@@ -23,7 +24,7 @@
                 echo '<p>' . $row["gender"] . '</p>';
                 echo '<p>' . $row["vaccinationStatus"] . '</p>';
                 echo '</br>';
-                echo '<button class="buttonA">Adopt</button>';
+                echo '<a href = "adoptionForm.php"><button class="buttonA">Adopt</button></a>';
                 echo '<button class="buttonF">Foster</button>';
                 echo '<button class="buttonV">View story</button>';
                 echo '</div>';

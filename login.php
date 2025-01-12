@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        header("Location: home.php");
+        header("Location: Homepage.php");
     } else {
         echo "Invalid ID or password";
     }

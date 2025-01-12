@@ -29,6 +29,7 @@ if ($conn->query($sql) === TRUE) {
     <link rel="stylesheet" type="text/css" href="addpets.css">
 </head>
 <body>
+    <?php include 'header.html'; ?>
     <div class="content">
         <h1> Pet Adoption Center</h1>
         <h2>Add Pets</h2>

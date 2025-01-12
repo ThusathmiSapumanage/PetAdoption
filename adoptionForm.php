@@ -56,25 +56,45 @@
 </head>
 
 <body>
-	<header>
-	<div class="navbar">
-		<ul>
-			<li><a href="homepage.html"><img src="logo.jpeg" alt="Pet Adoption Logo" width="100px" height="100px"></a></li>
-			<li><a href="homepage.html">HOME</a></li>
-			<li><a href="">VIEW PETS</a></li>
-			<li><a href="adoptionForm.html">ADOPTION FORM</a></li>
-			<li><a href="">ADD PET FOR ADOPTION</a></li>
-			<li><a href="">TEMPORARY PET CARE</a></li>
-			<li><a href="">ABOUT US</a></li>
-			<li><a href="">CONTACT US</a></li>
-		</ul>
-	</div>
-	</header>
-	
-
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="homepage.php"><img src="logo.jpeg" alt="Pet Adoption Logo" width="100px" height="100px"></a></li>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="viewPets.php">Our Pets</a></li>
+            <li><a href="adoptionForm.php">Adopt</a></li>
+            <li><a href="addpets.php">Add pet for adoption</a></li>
+            <li><a href="fosterhomeapp.php">Foster</a></li>
+            <li><a href="addStories.php">Share your story</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="contactus.php">Get in touch</a></li>
+            <li><a href= "logout.php">Log out</a></li>
+        </ul>
+    </div>
+</header>
 	<div class="form-container">
-		<form action="" method="POST" name="adoptionForm" onsubmit="return validationForm(event)">
+		<form action="https://formspree.io/f/xrbbrwlz" method="POST" name="adoptionForm" onsubmit="return validationForm(event)">
 			<h2>Adoption Form</h2>
+
+			<label>Which pet are you interested in adopting?</label>
+			<select name="pet" required>
+				<?php
+				include 'config.php';
+
+				$sql = "SELECT name FROM pet";
+				$result = $conn->query($sql);
+				if ($result->num_rows > 0) {
+					while($row = $result->fetch_assoc()) {
+						echo '<option value="' . $row["name"] . '">' . $row["name"] . '</option>';
+					}
+				} else {
+					echo '<option value="">No pets available</option>';
+				}
+				$conn->close();
+				?>'
+				</select>
+			<br><br>
+			
 			<label>Full Name:</label>
 			<input type="text" id="name" name="name" required>
 			<br><br>

@@ -11,14 +11,16 @@
     <header>
         <div class="navbar">
             <ul>
-                <li><a href="homepage.html"><img src="logo.jpeg" alt="Pet Adoption Logo" width="100px" height="100px"></a></li>
-                <li><a href="homepage.html">HOME</a></li>
-                <li><a href="">VIEW PETS</a></li>
-                <li><a href="adoptionForm.html">ADOPTION FORM</a></li>
-                <li><a href="">ADD PET FOR ADOPTION</a></li>
-                <li><a href="">TEMPORARY PET CARE</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT US</a></li>
+                <li><a href="homepage.php"><img src="logo.jpeg" alt="Pet Adoption Logo" width="100px" height="100px"></a></li>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="viewPets.php">Our Pets</a></li>
+                <li><a href="adoptionForm.php">Adopt</a></li>
+                <li><a href="addpets.php">Add pet for adoption</a></li>
+                <li><a href="fosterhomeapp.php">Foster</a></li>
+                <li><a href="addStories.php">Share your story</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="contactus.php">Get in touch</a></li>
+                <li><a href="logout.php">Log out</a></li>
             </ul>
         </div>
     </header>
@@ -62,11 +64,7 @@
         </button>
     </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 | Pet adoption center</p>
-        <p>1234, New York Street, Colombo</p>
-    </footer>
-
+    <?php include 'footer.html'; ?>
     <!-- Bootstrap JS (required for carousel to work) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
