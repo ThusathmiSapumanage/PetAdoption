@@ -135,11 +135,7 @@
 			<button type="submit">Submit Form</button>
 		</form>
 	</div>
-	
-	<footer class="footer">
-    		<p>&copy; 2025 | Pet adoption center</p>
-    		<p>1234, New York Street, Colombo</p>
-	</footer>
+	<?php include 'footer.html'; ?>
 </body>
 
 </html>
