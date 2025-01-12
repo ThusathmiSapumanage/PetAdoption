@@ -1,0 +1,144 @@
+body {
+    	background-color: #F7E9D7;
+    	margin: 0;
+    	padding: 0;
+}
+
+.navbar {
+    	width: 100%; 
+    	height: 70px;
+    	background-color: #F7E9D7; 
+    	display: flex;
+    	justify-content: center; 
+    	align-items: center; 
+	padding-bottom: 75px !important;
+}
+
+ul {
+    	display: flex;
+    	justify-content: center; 
+    	align-items: center; 
+    	margin: 0;
+    	padding: 0;
+}
+
+ul li {
+    	list-style: none;
+    	margin-left: 30px; 
+    	font-size: 16px;
+}
+
+ul li a {
+    	text-decoration: none;
+    	color: #424242;
+    	font-family: Arial, sans-serif;
+    	font-weight: bold;
+}
+
+ul li a:hover {
+	color: #FF7043;
+}
+
+#carouselExampleCaptions {
+	margin: 50px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+h5 {
+	color: #424242 !important;
+	font-weight: bold !important;
+}
+
+p {
+	color: #424242 !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+}
+
+p a {
+	text-decoration: none;
+    	color: #424242;
+    	font-family: Arial, sans-serif;
+    	font-weight: bold;	
+}
+
+p a:hover {
+	color: #FF7043 !important;
+}
+
+.footer-container {
+	display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    	max-width: 1200px;
+    	margin: auto;
+    	padding-top: 5px;
+	
+}
+
+.footer-section {
+	display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    	max-width: 1200px;
+    	margin: auto;
+    	padding: 5px;
+}
+
+.footer {
+       	background-color: #F7E9D7;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+}
+
+.footer p {
+        color: #513328;
+}
+
+.form-container {
+    max-width: 600px; /* Controls form width */
+    margin: 50px auto; /* Centers the form */
+    padding: 20px;
+    background: #fff; /* Optional: White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Aligns form elements vertically */
+    gap: 15px; /* Adds spacing between elements */
+}
+
+label {
+    font-weight: bold;
+    color: #424242; /* Dark gray */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FF7043;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
