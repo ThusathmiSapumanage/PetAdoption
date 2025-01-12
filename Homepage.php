@@ -35,19 +35,19 @@
             <div class="carousel-item active">
                 <img src="slide1.jpeg" class="d-block w-100" alt="Image of various types of pets" width="400px" height="530px">
                 <div class="carousel-caption d-none d-md-block">
-                    <p><a href="">Looking for a new pet to Adopt? Click here, and browse our list!</a></p>
+                    <p><a href="viewPets.php">Looking for a new pet to Adopt? Click here, and browse our list!</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="slide2.jpeg" class="d-block w-100" alt="Person leaving their pets behind" width="400px" height="530px">
                 <div class="carousel-caption d-none d-md-block">
-                    <p><a href="">Travelling aboard ? Find a temporary home for your pet !</a></p>
+                    <p><a href="addpets.php">Travelling aboard ? Find a temporary home for your pet !</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="slide3.jpeg" class="d-block w-100" alt="Image of adoption process" width="400px" height="530px">
                 <div class="carousel-caption d-none d-md-block">
-                    <p><a href="">Ready to adopt ? Fill our adoption form now !</a></p>
+                    <p style="color: white;"><a href="adoptionForm.php">Ready to adopt? Fill our adoption form now!</a></p>
                 </div>
             </div>
         </div>
