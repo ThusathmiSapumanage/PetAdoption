@@ -41,13 +41,13 @@
             <div class="carousel-item">
                 <img src="slide2.jpeg" class="d-block w-100" alt="Person leaving their pets behind" width="400px" height="530px">
                 <div class="carousel-caption d-none d-md-block">
-                    <p><a href="addpets.php">Travelling aboard ? Find a temporary home for your pet !</a></p>
+                    <p style="text-shadow: 2px 2px 4px #000000;"><a href="addpets.php" style="color: white;">Travelling aboard? Find a temporary home for your pet!</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="slide3.jpeg" class="d-block w-100" alt="Image of adoption process" width="400px" height="530px">
-                <div class="carousel-caption d-none d-md-block">
-                    <p style="color: white;"><a href="adoptionForm.php">Ready to adopt? Fill our adoption form now!</a></p>
+                <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+                    <p><a href="adoptionForm.php" style="color: white;">Ready to adopt? Fill our adoption form now!</a></p>
                 </div>
             </div>
         </div>
