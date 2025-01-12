@@ -76,13 +76,36 @@ button {
     background-color: #7ba83e;
 }
 
-.buttonV {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    color: #333;
-    margin: 0;
+.filter-form
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.buttonV:hover {
-    background-color: #f0f0f0;
+.filter-form label
+{
+    font-weight: bold;
+    color: #724a3d;
+    margin-top: 10px;
+}
+
+.filter-form select
+{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    height: 40px;
+}
+
+.filter-form button
+{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #6d4c41;
+    color: #fff;
 }

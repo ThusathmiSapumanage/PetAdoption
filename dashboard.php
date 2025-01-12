@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Welcome to the adoption site</title>
-    <link rel="stylesheet" href="dash.css">
     <style>
         body {
             font-family: Arial, sans-serif;
