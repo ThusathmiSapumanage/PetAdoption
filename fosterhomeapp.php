@@ -61,7 +61,7 @@
             <option value="no">No</option>
         </select><br><br>
 
-        <button type="submit">Get in touch</button>
+        <button type="submit">Send Away</button>
     </form>
     <?php include 'footer.html'; ?>
 </body>

@@ -3,7 +3,7 @@
 
 <head>
 	<title>Adoption Form</title>
-	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="adoptionform.css"> 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<script>
 		function validationForm(event) {
@@ -56,22 +56,7 @@
 </head>
 
 <body>
-<header>
-    <div class="navbar">
-        <ul>
-            <li><a href="homepage.php"><img src="logo.jpeg" alt="Pet Adoption Logo" width="100px" height="100px"></a></li>
-            <li><a href="homepage.php">Home</a></li>
-            <li><a href="viewPets.php">Our Pets</a></li>
-            <li><a href="adoptionForm.php">Adopt</a></li>
-            <li><a href="addpets.php">Add pet for adoption</a></li>
-            <li><a href="fosterhomeapp.php">Foster</a></li>
-            <li><a href="addStories.php">Share your story</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="contactus.php">Get in touch</a></li>
-            <li><a href= "logout.php">Log out</a></li>
-        </ul>
-    </div>
-</header>
+	<?php include 'header.html'; ?>
 	<div class="form-container">
 		<form action="https://formspree.io/f/xrbbrwlz" method="POST" name="adoptionForm" onsubmit="return validationForm(event)">
 			<h2>Adoption Form</h2>
@@ -132,7 +117,7 @@
 			</select>
 			<br><br>
 
-			<button type="submit">Submit Form</button>
+			<button type="submit" class = "btn">Submit Form</button>
 		</form>
 	</div>
 	<?php include 'footer.html'; ?>
