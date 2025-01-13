@@ -62,7 +62,7 @@ if ($conn->query($sql) === TRUE) {
                 <option value = "Not Vaccinated"> Not Vaccinated </option>
             </select><br><br>
 
-            <input type="submit" value="Add Pet" class="btn">
+            <input type="submit" value="Add pet" class="btn">
         </form>
     </div>
     <?php include 'footer.html'; ?>
